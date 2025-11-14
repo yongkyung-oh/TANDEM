@@ -1,4 +1,4 @@
-# TANDEM: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification
+# [TANDEM: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification](https://dl.acm.org/doi/10.1145/3746252.3760996)
 
 Handling missing data in time series classification remains a significant challenge across domains such as healthcare and sensor analytics. Traditional approaches often depend on imputation, which may introduce bias or fail to capture the underlying temporal dynamics.  
 
