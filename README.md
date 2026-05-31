@@ -18,19 +18,9 @@ Handling missing data in time series classification remains a significant challe
 
 TANDEM unifies three complementary views of an incomplete time series and lets a temporal attention mechanism decide where each view should drive the latent dynamics:
 
-```mermaid
-flowchart LR
-    A["Irregular / incomplete<br/>time series"] --> B["Raw observations<br/>(values + mask + Δt)"]
-    A --> C["Interpolated control path<br/>(natural cubic / Hermite spline)"]
-    B --> D["Temporal attention<br/>mechanism"]
-    C --> E["Neural Differential Equation<br/>backbone (continuous latent dynamics)"]
-    D --> E
-    E --> F["Attention-weighted<br/>latent representation"]
-    F --> G["Classifier head"]
-    G --> H["Class prediction"]
-```
+![Conceptual overview of the TANDEM framework.](assets/overview.png)
 
-> The schematic above summarizes the components described in the paper. For the exact formulation, figures, and ablations, please refer to the [published paper](https://doi.org/10.1145/3746252.3760996).
+> **Conceptual overview of TANDEM.** For a time series with potentially missing values, three feature streams are processed: (i) the raw observation $\tilde{x}(t)$, (ii) an interpolated, piecewise-smooth control path $X(t)$, and (iii) continuous latent dynamics $z(t)$ from an NDE backbone. Each stream is refined by attention into representations $\Phi_{\tilde{x}}(t)$, $\Phi_X(t)$, $\Phi_z(t)$ (colors denote learned temporal attention scores), then adaptively combined by learnable **Gumbel-Sigmoid gates** ($\sigma_{\tilde{x}}, \sigma_X, \sigma_z$) before being passed to a classifier. See the [paper](https://doi.org/10.1145/3746252.3760996) for the full formulation and ablations.
 
 ### Key ideas
 
