@@ -4,16 +4,16 @@ title: "TANDEM: Temporal Attention-guided Neural Differential Equations for Miss
 type: software
 authors:
   - family-names: Oh
-    given-names: Yongkyung
+    given-names: YongKyung
     orcid: "https://orcid.org/0000-0002-8027-3433"
   - family-names: Lim
-    given-names: Dongyoung
+    given-names: Dong-Young
     orcid: "https://orcid.org/0000-0002-4677-965X"
   - family-names: Kim
     given-names: Sungil
     orcid: "https://orcid.org/0000-0003-0208-4378"
   - family-names: Bui
-    given-names: "Alex A.T."
+    given-names: "Alex A. T."
     orcid: "https://orcid.org/0000-0002-4702-1373"
 repository-code: "https://github.com/yongkyung-oh/TANDEM"
 license: MIT
@@ -22,16 +22,16 @@ preferred-citation:
   title: "TANDEM: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification"
   authors:
     - family-names: Oh
-      given-names: Yongkyung
+      given-names: YongKyung
       orcid: "https://orcid.org/0000-0002-8027-3433"
     - family-names: Lim
-      given-names: Dongyoung
+      given-names: Dong-Young
       orcid: "https://orcid.org/0000-0002-4677-965X"
     - family-names: Kim
       given-names: Sungil
       orcid: "https://orcid.org/0000-0003-0208-4378"
     - family-names: Bui
-      given-names: "Alex A.T."
+      given-names: "Alex A. T."
       orcid: "https://orcid.org/0000-0002-4702-1373"
   collection-title: "Proceedings of the 34th ACM International Conference on Information and Knowledge Management"
   collection-type: proceedings
