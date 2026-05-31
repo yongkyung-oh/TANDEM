@@ -5,8 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12.1-ee4c2c.svg)](https://pytorch.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.17519-b31b1b.svg)](https://arxiv.org/abs/2508.17519)
 
-> Official implementation of **TANDEM**, published at the 34th ACM International Conference on Information and Knowledge Management (**CIKM '25**), Seoul, Republic of Korea. [[Paper]](https://dl.acm.org/doi/10.1145/3746252.3760996)
+> Official implementation of **TANDEM**, published at the 34th ACM International Conference on Information and Knowledge Management (**CIKM '25**), Seoul, Republic of Korea. [[ACM paper]](https://dl.acm.org/doi/10.1145/3746252.3760996) · [[arXiv:2508.17519]](https://arxiv.org/abs/2508.17519)
 
 Handling missing data in time series classification remains a significant challenge across domains such as healthcare and sensor analytics. Traditional approaches often depend on imputation, which may introduce bias or fail to capture the underlying temporal dynamics.
 
@@ -157,7 +158,9 @@ If you use this repository, please cite:
   location     = {Seoul, Republic of Korea},
   isbn         = {979-8-4007-2040-6},
   doi          = {10.1145/3746252.3760996},
-  url          = {https://doi.org/10.1145/3746252.3760996}
+  url          = {https://doi.org/10.1145/3746252.3760996},
+  eprint       = {2508.17519},
+  archivePrefix = {arXiv}
 }
 ```
 
