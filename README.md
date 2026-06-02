@@ -156,11 +156,17 @@ If you use this repository, please cite:
   publisher    = {Association for Computing Machinery},
   address      = {New York, NY, USA},
   location     = {Seoul, Republic of Korea},
-  isbn         = {979-8-4007-2040-6},
   doi          = {10.1145/3746252.3760996},
-  url          = {https://doi.org/10.1145/3746252.3760996},
-  eprint       = {2508.17519},
-  archivePrefix = {arXiv}
+  url          = {https://doi.org/10.1145/3746252.3760996}
+}
+
+@misc{oh_tandem_2025_arxiv,
+  title        = {{TANDEM}: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification},
+  author       = {Oh, Yongkyung and Lim, Dongyoung and Kim, Sungil and Bui, Alex A. T.},
+  year         = {2025},
+  publisher    = {arXiv},
+  doi          = {10.48550/arXiv.2508.17519},
+  url          = {https://arxiv.org/abs/2508.17519}
 }
 ```
 
