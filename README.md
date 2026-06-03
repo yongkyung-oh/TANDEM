@@ -159,7 +159,9 @@ If you use this repository, please cite:
   doi          = {10.1145/3746252.3760996},
   url          = {https://doi.org/10.1145/3746252.3760996}
 }
+```
 
+```bibtex
 @misc{oh_tandem_2025_arxiv,
   title        = {{TANDEM}: Temporal Attention-guided Neural Differential Equations for Missingness in Time Series Classification},
   author       = {Oh, Yongkyung and Lim, Dongyoung and Kim, Sungil and Bui, Alex A. T.},
